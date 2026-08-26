@@ -1,0 +1,39 @@
+{
+  "name": "@kiafit/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "latest",
+    "@kiafit/contracts": "workspace:*",
+    "@kiafit/ippt-engine": "workspace:*",
+    "@kiafit/pose-rules": "workspace:*",
+    "@tanstack/react-query": "latest",
+    "@teachablemachine/pose": "0.8.6",
+    "@tensorflow/tfjs": "1.7.4",
+    "date-fns": "latest",
+    "leaflet": "latest",
+    "lucide-react": "latest",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "latest",
+    "react-leaflet": "latest",
+    "react-router": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/leaflet": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-plugin-pwa": "latest"
+  }
+}
